@@ -1,0 +1,20 @@
+code {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    color: #333;
+    background: #f8f8f8;
+    padding: 18px 15px 12px;
+    display: block;
+    word-break: normal;
+}
+.article-content .hljs-keyword, .article-content .hljs-selector-tag, .article-content .hljs-subst {
+    color: #333;
+    font-weight: 700;
+}
+.article-content .hljs-section, .article-content .hljs-selector-id, .article-content .hljs-title {
+    color: #900;
+    font-weight: 700;
+}
+.article-content .hljs-built_in, .article-content .hljs-builtin-name {
+    color: #0086b3;
+}
