@@ -1,7 +1,8 @@
 import React from 'react';
 class InheritOne extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
+        this.state = {};
     }
     render() {
         return (

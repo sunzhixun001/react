@@ -1,5 +1,5 @@
 import React from 'react';
-class One extends React.Component {
+class AlgorithmOne extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -47,4 +47,4 @@ class One extends React.Component {
         });
     }
 }
-export default One;
+export default AlgorithmOne;
