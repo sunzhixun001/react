@@ -4,9 +4,15 @@ class AlgorithmIndex extends React.Component {
     render() {
         return (
             <div>
-                <ul>
-                    <li><Link to="/algorithm/one">提取最长有效数字</Link></li>
-                </ul>
+                <Link to="/algorithm/one">
+                    <h4 className="heading">算法题目一</h4>
+                </Link>
+                <Link to="/algorithm/two">
+                    <h4 className="heading">算法题目二</h4>
+                </Link>
+                <Link to="/algorithm/three">
+                    <h4 className="heading">算法题目三</h4>
+                </Link>
             </div>
         )
     }

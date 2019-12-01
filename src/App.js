@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import Scope from './Scope';
 import AlgorithmIndex from './pages/algorithm/index';
-import One from './pages/algorithm/one';
+import AlgorithmOne from './pages/algorithm/one';
+import AlgorithmTwo from './pages/algorithm/two';
+import AlgorithmThree from './pages/algorithm/three';
 import WrittenIndex from './pages/written/index';
 import WrittenOne from './pages/written/one';
 import InheritIndex from './pages/inherit/index';
@@ -34,7 +36,9 @@ function App() {
         <Switch>
           <Route path="/scope" component={Scope} />
           <Route path="/algorithm/index" component={AlgorithmIndex} />
-          <Route path="/algorithm/one" component={One} />
+          <Route path="/algorithm/one" component={AlgorithmOne} />
+          <Route path="/algorithm/two" component={AlgorithmTwo} />
+          <Route path="/algorithm/three" component={AlgorithmThree} />
           <Route path="/written/index" component={WrittenIndex} />
           <Route path="/written/one" component={WrittenOne} />
           <Route path="/inherit/index" component={InheritIndex} />
