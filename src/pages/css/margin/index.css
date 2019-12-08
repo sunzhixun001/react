@@ -1,0 +1,22 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background: lightskyblue;
+}
+
+.container .center {
+  background: lightsalmon;
+  width: 200px;
+  height: 200px;
+}
+
+.container .center .inner {
+  background: lightgreen;
+  width: 100px;
+  height: 100px;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+  /* margin-bottom: 100px; */
+  margin-top: -100px;
+  opacity: 0.8;
+}

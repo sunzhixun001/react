@@ -4,7 +4,6 @@ class Scope extends React.Component {
       return (
         <div>
           <h2>作用域题目</h2>
-          <a onClick={() => {console.log(this.props.history.goBack())}}>返回</a>
         </div>
       );
     }
